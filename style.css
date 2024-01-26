@@ -68,8 +68,14 @@ main {
 
 @media (max-width: 41rem) {
     main {
+        margin-block: 5.3rem 3rem;
+        text-align: center;
         grid-template-columns: 1fr;
         align-items: start;
+    }
+
+    h1 {
+        font-size: 1.7rem;
     }
 }
 
@@ -83,6 +89,7 @@ main {
     color: var(--Grayish-Blue);
     background-color: var(--Blue);
     border-radius: .6rem;
+    box-shadow: 0 7px 0 0 hsla(0, 0%, 0%, .3);
 }
 
 .free-trial span {
